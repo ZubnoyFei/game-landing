@@ -13,7 +13,7 @@
 <section class="hero">
     <div class="hero-wrapper">
         <header class="header">
-            <div class="container">
+            <div class="container header__container">
                 <img src="src/img/logo.png" alt="A game logo" class="hero__logo">
                 <nav class="header__nav nav">
                     <ul class="header__list">
@@ -34,9 +34,9 @@
                         </li>
                     </ul>
                     <ul class="header__lang">
-                        <li class="header__item"><a href="#" class="header__link">Ukr</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Fra</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Deu</a></li>
+                        <li class="header__item"><a href="#" class="header__link header__lang--link">Ukr</a></li>
+                        <li class="header__item"><a href="#" class="header__link header__lang--link">Fra</a></li>
+                        <li class="header__item"><a href="#" class="header__link header__lang--link">Deu</a></li>
                     </ul>
                 </nav>
                 <div class="header__icon-wrapper">
@@ -45,17 +45,19 @@
                 </div>
             </div>
         </header>
-        <div class="hero-text">
+        <div class="hero__text">
             <div class="container">
                 <h1 class="hero__heading">SURVIVE AT ALL COSTS</h1>
-                <p class="hero__text">Experience new social battle royale game</p>
+                <p class="hero__paragraph">Experience new social battle royale game</p>
                 <button class="hero__button">Buy now on steam $14.99</button>
             </div>
         </div>
         <div class="hero__bottom-link">
-            <a href="#" class="hero__link">The story
-                <img src="src/img/scroll-down.svg" alt="A scroll button" class="hero__scroll">
-            </a>
+            <div class="container">
+                <a href="#" class="hero__link">The story
+                    <img src="src/img/scroll-down.svg" alt="A scroll button" class="hero__scroll">
+                </a>
+            </div>
         </div>
     </div>
 </section>
@@ -229,44 +231,49 @@
         <p class="subscribe__text">In order to start receiving our news, all you have to do is enter your email address.
             Everything else will be taken care of by us. We will send you emails containing information about game. We
             don’t spam.</p>
-<div class="subscribe__wrapper">
-    <label class="subscribe__label">
-        <input type="text" class="subscribe__form">
-        <button class="subscribe__button button">Subscribe now</button>
-    </label>
-</div>
+        <div class="subscribe__wrapper">
+            <label class="subscribe__label">
+                <input type="text" class="subscribe__form">
+                <button class="subscribe__button button">Subscribe now</button>
+            </label>
+        </div>
     </div>
 </section>
 <footer class="footer">
     <div class="container footer__container">
         <img src="src/img/logo.png" alt="An SOS logo" class="footer__logo">
-<div class="footer__nav-wrapper">
-    <nav class="footer__nav nav">
-        <ul class="footer__list">
-            <li class="footer__item">
-                <a href="#" class="footer__link">Main</a>
-            </li>
-            <li class="footer__item">
-                <a href="#" class="footer__link">About</a>
-            </li>
-            <li class="footer__item">
-                <a href="#" class="footer__link">Game features</a>
-            </li>
-            <li class="footer__item">
-                <a href="#" class="footer__link">System requirements</a>
-            </li>
-            <li class="footer__item">
-                <a href="#" class="footer__link">Quotes</a>
-            </li>
-        </ul>
-    </nav>
-</div>
+        <div class="footer__nav-wrapper">
+            <nav class="footer__nav nav">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Main</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">About</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Game features</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">System requirements</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Quotes</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
         <div class="footer__icons">
-            <a href="#" class="footer__link"><img src="src/img/facebook-footer.svg" alt="A facebook icon" class="footer__social-icon"></a>
-            <a href="" class="footer__link"><img src="src/img/twitter-footer.svg" alt="A twitter icon" class="footer__social-icon"></a>
-            <a href="" class="footer__link"><img src="src/img/footer-youtube.svg" alt="A youtube icon" class="footer__social-icon"></a>
-            <a href="" class="footer__link"><img src="src/img/cursor.png" alt="A pointer icon" class="footer__social-icon"></a>
-            <a href="" class="footer__link"><img   src="src/img/twitch.svg" alt="A twitch icon" class="footer__social-icon"></a>
+            <a href="#" class="footer__link"><img src="src/img/facebook-footer.svg" alt="A facebook icon"
+                                                  class="footer__social-icon"></a>
+            <a href="" class="footer__link"><img src="src/img/twitter-footer.svg" alt="A twitter icon"
+                                                 class="footer__social-icon"></a>
+            <a href="" class="footer__link"><img src="src/img/footer-youtube.svg" alt="A youtube icon"
+                                                 class="footer__social-icon"></a>
+            <a href="" class="footer__link"><img src="src/img/cursor.png" alt="A pointer icon"
+                                                 class="footer__social-icon"></a>
+            <a href="" class="footer__link"><img src="src/img/twitch.svg" alt="A twitch icon"
+                                                 class="footer__social-icon"></a>
         </div>
     </div>
     <div class="container footer__container footer__container--bottom">

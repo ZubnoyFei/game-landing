@@ -26,3 +26,22 @@
     display: flex;
     gap: 20px;
 }
+
+
+.header__lang {
+    background-color: #000000;
+}
+
+.header__lang--link {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+}
+
+.header__lang--link:hover {
+    color: #F3AF34;
+
+}

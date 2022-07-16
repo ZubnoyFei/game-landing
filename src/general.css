@@ -1,0 +1,12 @@
+@import "../src/fonts/OpenSans-Bold.woff2";
+@import "../src/fonts/OpenSans-Regular.woff2";
+
+body {
+    font-family: OpenSans, sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}

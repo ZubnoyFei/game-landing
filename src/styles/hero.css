@@ -1,0 +1,25 @@
+.hero-wrapper {
+    background-image: url("../../src/img/hero__bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.hero__text {
+    padding-top: 250px;
+    padding-bottom: 350px;
+    text-align: center;
+}
+
+.hero__heading {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.hero__paragraph {
+
+}

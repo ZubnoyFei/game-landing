@@ -1,0 +1,28 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 50px;
+}
+
+.header__link {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.3;
+}
+
+.header__icon-wrapper {
+    display: flex;
+    gap: 20px;
+}

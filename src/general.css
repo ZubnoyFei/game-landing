@@ -1,8 +1,14 @@
 @import "../src/fonts/OpenSans-Bold.woff2";
 @import "../src/fonts/OpenSans-Regular.woff2";
+@import "../src/styles/header.css";
+@import "../src/styles/hero.css";
+
+
+
 
 body {
     font-family: OpenSans, sans-serif;
+    background-color: #000000;
 }
 
 .container {
@@ -10,3 +16,11 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+

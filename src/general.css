@@ -1,7 +1,9 @@
-@import "../src/fonts/OpenSans-Bold.woff2";
-@import "../src/fonts/OpenSans-Regular.woff2";
+
 @import "../src/styles/header.css";
 @import "../src/styles/hero.css";
+@import "../src/styles/about.css";
+@import "../src/styles/features.css";
+
 
 
 

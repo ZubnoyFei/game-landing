@@ -3,8 +3,9 @@
 @import "../src/styles/about.css";
 @import "../src/styles/features.css";
 @import "../src/styles/requirements.css";
-
-
+@import "../src/styles/testimonials.css";
+@import "../src/styles/components/buttons.css";
+@import "../src/styles/subscribe.css";
 
 
 

@@ -1,0 +1,54 @@
+.requirements {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-image: url("../../src/img/requirements.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.requirements__text {
+    display: flex;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+
+.requirements__heading {
+    display: flex;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 1;
+    margin-bottom: 135px;
+}
+
+.requirements__table {
+    width: 575px;
+border: 1px solid #979797;
+}
+
+.requirements__data {
+    border: 1px solid #979797;
+    padding: 30px;
+}
+
+.requirements__subheading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #FFB548;
+    margin-bottom: 25px;
+}
+
+.requirements__subtext {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #FFFFFF;
+}

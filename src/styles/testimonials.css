@@ -5,7 +5,7 @@
 
 .testimonials__container {
     display: flex;
-    justify-content: space-between;
+  gap: 170px;
     align-items: center;
 }
 
@@ -40,11 +40,21 @@
     margin-bottom: 70px;
 }
 
+.testimonials__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 640px;
+}
+
+.testimonials__list:nth-child(2) {
+    align-self: flex-start;
+}
+
 .testimonials__item {
     background-color: rgba(255, 255, 255, 0.08);
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 10px;
-    margin-bottom: 30px;
     width: 450px;
 }
 

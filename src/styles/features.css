@@ -6,10 +6,12 @@
     padding-bottom: 260px;
 }
 
-
 .features__container {
-transform: translate(650px, 0px);
+    display: flex;
+   justify-content: flex-end;
 }
+
+
 .features__text {
     font-weight: 700;
     color: #FFFFFF;
@@ -26,6 +28,25 @@ transform: translate(650px, 0px);
     color: #FFFFFF;
     margin-bottom: 85px;
     text-transform: uppercase;
+}
+
+.features__item:before {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 5px solid #FFFFFF;
+    display: inline-block;
+    position: absolute;
+}
+
+.features__item--filled {
+    color: #FFFFFF;
+}
+
+
+.features__item {
+    padding-left: 33px;
+    position: relative;
 }
 
 .features__subheading {

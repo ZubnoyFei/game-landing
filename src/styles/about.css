@@ -10,10 +10,12 @@
 .about__container {
     display: flex;
     justify-content: space-between;
-
+gap: 32px;
 }
 
 .about__text-wrapper {
+    display: flex;
+    flex-direction: column;
     flex-grow:1;
 }
 
@@ -49,6 +51,8 @@
     line-height: 1.2;
     color: #FFFFFF;
     text-align: justify;
+    align-self: flex-end;
+    width: 360px;
 }
 
 .about__underline {

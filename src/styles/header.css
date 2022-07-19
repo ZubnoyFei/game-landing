@@ -27,10 +27,29 @@
     gap: 20px;
 }
 
+.header__languages {
+    display: flex;
+ align-items: center;
+}
 
-.header__lang {
+.header__lang li > ul {
+    display: none;
+
+}
+
+.header__language-list {
+    align-items: center;
+    position: relative;
+    transition: 0.5s;
+    display: block;
     background-color: #000000;
 }
+
+.header__lang li:hover ul {
+    display: block;
+    position: absolute;
+}
+
 
 .header__lang--link {
     font-weight: 700;
